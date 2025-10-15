@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Paint" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Tema base de la aplicación -->
+    <style name="Theme.Paint" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/purple_40</item>
+        <item name="colorPrimaryDark">@color/purple_grey_40</item>
+        <item name="colorAccent">@color/pink_40</item>
+
+        <!-- Fondo general -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/textColor</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">@color/purple_grey_40</item>
+    </style>
+
 </resources>
